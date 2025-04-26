@@ -17,10 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from .views import index_view
-from challenges.views import challenges_index_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index_view, name='home'),
-    path('challenges/', challenges_index_view, name='challenges_home'),
+    path('challenges/', include('challenges.urls')),
 ]

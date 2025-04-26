@@ -13,7 +13,7 @@
         <div class="p-4">
             <p class="text-gray-700">{{ challenge }}</p>
             <div class="mt-4 flex justify-end">
-                <a href="/challenges/{{ month }}" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-200">
+                <a href="{% url 'challenges:detail' month %}" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-200">
                     View Details
                 </a>
             </div>
