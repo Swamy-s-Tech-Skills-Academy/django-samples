@@ -10,7 +10,7 @@ This repository serves as a learning resource for Django developers of all skill
 
 ```text
 django-samples/
-├── first-sample/            # First Django project with basic setup
+├── first_sample/            # First Django project with basic setup
 ├── rest-api-sample/         # RESTful API implementation with Django REST Framework
 ├── crud-sample/             # Basic and advanced CRUD operations
 ├── middleware-sample/       # Custom middleware implementations
