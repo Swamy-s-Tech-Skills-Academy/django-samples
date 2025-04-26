@@ -24,6 +24,6 @@ def challenges_index_view(request):
         'december': 'Connect with a friend or family member daily!'
     }
 
-    return render(request, 'index.html', {
+    return render(request, 'challenges/index.html', {
         'challenges': monthly_challenges
     })
