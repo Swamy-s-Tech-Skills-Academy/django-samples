@@ -1,11 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
-def home_view(request):
-    """
-    View function for the home page that renders the index.html template.
-    """
-    return render(request, 'index.html')
+
 
 def challenges_index_view(request):
     """
@@ -27,7 +23,7 @@ def challenges_index_view(request):
         'november': 'Practice gratitude journaling!',
         'december': 'Connect with a friend or family member daily!'
     }
-    
+
     return render(request, 'index.html', {
         'challenges': monthly_challenges
     })
