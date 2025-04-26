@@ -13,4 +13,6 @@ python.exe -m pip install --upgrade pip
 
 django-admin startproject first_sample
 cd first_sample
+
+py manage.py runserver
 ```
