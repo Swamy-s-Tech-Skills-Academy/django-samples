@@ -10,11 +10,12 @@ This repository serves as a learning resource for Django developers of all skill
 
 ```text
 django-samples/
-├── authentication-sample/    # Authentication examples (sessions, JWT, OAuth)
+├── first-sample/            # First Django project with basic setup
+├── rest-api-sample/         # RESTful API implementation with Django REST Framework
 ├── crud-sample/             # Basic and advanced CRUD operations
 ├── middleware-sample/       # Custom middleware implementations
+├── authentication-sample/   # Authentication examples (sessions, JWT, OAuth)
 ├── api-integration-sample/  # Examples of integrating with third-party APIs
-├── rest-api-sample/         # RESTful API implementation with Django REST Framework
 └── deployment-sample/       # Deployment configurations and best practices
 ```
 
