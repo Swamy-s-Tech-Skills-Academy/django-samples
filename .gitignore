@@ -399,6 +399,22 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+# Django specific files
+*.sqlite3
+*.sqlite3-journal
+media/
+static/
+local_settings.py
+*.pot
+*.mo
+migrations/
+!*/migrations/__init__.py
 
-.venv/
+# Django development settings
 .env
+.env.local
+.env.development
+
+# Python virtual environments
+# https://docs.python-guide.org/writing/structure/#virtualenv
+.venv/
