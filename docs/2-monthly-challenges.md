@@ -12,13 +12,17 @@ venv\Scripts\activate
 # source venv/bin/activate
 ```
 
-## First Sample Django Project
+## Install Django, Upgrade Pip and other packages
 
 ```powershell
 # Install packages
 pip install django
 python -m pip install --upgrade pip
+```
 
+## First Sample Django Project
+
+```powershell
 # Create a new Django project
 django-admin startproject monthly_challenges
 cd monthly_challenges
