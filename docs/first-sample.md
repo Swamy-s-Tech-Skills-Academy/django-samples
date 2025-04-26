@@ -16,3 +16,9 @@ cd first_sample
 
 py manage.py runserver
 ```
+
+## Create a Django App
+
+```powershell
+py manage.py startapp challenges
+```
