@@ -7,13 +7,14 @@
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
     {% for month, challenge in challenges.items %}
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
-        <div class="bg-blue-100 px-4 py-2 border-b border-blue-200">
-            <h2 class="text-xl font-semibold text-blue-700">{{ month|title }}</h2>
+        <div class="bg-gray-100 px-4 py-2 border-b border-gray-200">
+            <h2 class="text-xl font-semibold text-gray-700">{{ month|title }}</h2>
         </div>
         <div class="p-4">
             <p class="text-gray-700">{{ challenge }}</p>
             <div class="mt-4 flex justify-end">
-                <a href="{% url 'challenges:detail' month %}" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-200">
+                <a href="{% url 'challenges:detail' month %}"
+                    class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-200">
                     View Details
                 </a>
             </div>
